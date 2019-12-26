@@ -32,8 +32,7 @@ function greet(stringTime) {
 
 function displayMessage(stringArg) {
   var greetingNode = document.getElementById('greeting');
-  greetingNode.contex(stringArg);
-  greetingNode.appendChild(addText);
+  greetingNode.textContent = stringArg;
 }
 
 
