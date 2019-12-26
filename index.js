@@ -10,6 +10,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 
 function greet(stringTime) {
+  var timeArray = stringTime.split(":");
   
 }
 
