@@ -31,7 +31,7 @@ function greet(stringTime) {
 /* Write your implementation of displayMessage() */
 
 function displayMessage(stringArg) {
-  let greetingNode = document.getElementById('greeting');
+  var greetingNode = document.getElementById('greeting');
   var addText = document.createTextNode(stringArg);
   greetingNode.appendChild(addText);
 }
