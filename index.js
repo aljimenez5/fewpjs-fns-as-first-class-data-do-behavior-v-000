@@ -13,6 +13,9 @@ function greet(stringTime) {
   var timeArray = stringTime.split(":");
   var hour = parseInt(timeArray[0]);
   var minutes = parseInt(timeArray[1]);
+  if (hour < 12) {
+    return "Good Morning";
+  }
 }
 
 
