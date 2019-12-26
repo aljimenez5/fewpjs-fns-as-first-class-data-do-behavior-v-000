@@ -11,7 +11,8 @@ function handleClick(e) {
 
 function greet(stringTime) {
   var timeArray = stringTime.split(":");
-  
+  var hour = parseInt(timeArray[0]);
+  var minutes = parseInt(timeArray[1]);
 }
 
 
